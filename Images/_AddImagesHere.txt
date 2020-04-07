@@ -1,0 +1,1 @@
+Add your images inside the AutoCar\Images folder
