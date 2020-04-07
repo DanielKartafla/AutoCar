@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ImageSanitizerCLI": {
+      "commandName": "Project",
+      "commandLineArgs": "./../../../../../Images"
+    }
+  }
+}
