@@ -55,6 +55,7 @@ namespace ImageSanitizerCLI
           || !bmp.GetPixel(width, height).Equals(trueWhite))
         {
           Console.WriteLine("Deleting {0}", file);
+          bmp.Dispose();
           File.Delete(file);
           deleted++;
         }
